@@ -1,2 +1,12 @@
-body {background-color: rgb(129,251,154)}
-
+html, body {
+    
+    min-height :100vh;
+}
+body{
+    background-color: rgb(129,251,154);
+    display: grid;
+grid-template-rows: auto 1fr auto;
+}
+.logo {
+    width: 100px;
+}
